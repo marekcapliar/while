@@ -1,6 +1,7 @@
 cislo=int(input("zadaj cislo: "))
-pocet=cislo
+pocet=0
 while cislo<=100:
-    cislo+=1
-    pocet=pocet+cislo
+    cislo+=cislo+1
+    pocet+=1
+print(cislo)
 print(pocet)
